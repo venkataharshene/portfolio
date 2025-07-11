@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Konduru Venkata Harshene</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Welcome to my creative portfolio! I'm a passionate Computer Science student with a strong interest in frontend development and AI/ML technologies. I enjoy turning ideas into visually engaging, functional experiences on the web. With a background in hackathons, internships, and esports, I bring both technical expertise and creative energy to every project. I'm always excited to collaborate, learn, and build solutions that make a real impact.
+        </p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/venkata-harshene-konduru" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/venkataharshene"><i class="bx bxl-github"></i></a>
+        </div>
+        <a href="KONDURU_VENKATA_HARSHENE-1.pdf" class="btn">Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="profile.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="photo.jpg" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer!</h3>
+        <p>
+          I’m a B.Tech CSE student (2022–2026) at Malla Reddy Engineering College with a CGPA of 8.98. I have a strong background in frontend development and artificial intelligence. I’ve interned with top companies and actively participate in national-level hackathons.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- services -->
+
+    <section class="services" id="services">
+  <h2 class="heading">My <span>Skills</span></h2>
+  <div class="services-container">
+
+    <div class="services-box">
+      <i class="bx bx-code-alt"></i>
+      <h3>Programming Languages</h3>
+      <p>Python, C++, SQL</p>
+    </div>
+
+    <div class="services-box">
+      <i class="bx bx-window"></i>
+      <h3>Frontend Technologies</h3>
+      <p>HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="services-box">
+      <i class="bx bx-data"></i>
+      <h3>Frameworks & Tools</h3>
+      <p>Git, GitHub, VS Code, Docker</p>
+    </div>
+
+    <div class="services-box">
+      <i class="bx bx-brain"></i>
+      <h3>AI / ML Skills</h3>
+      <p>Pandas, NumPy, Matplotlib, Machine Learning, Data Structures</p>
+    </div>
+
+  </div>
+</section>
+
+    <!-- Portfolio Section -->
+
+    <section class="portfolio" id="portfolio">
+  <h2 class="heading">Latest <span>Projects</span></h2>
+
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+      <img src="helmet.jpg" alt="Helmet Detection System">
+      <div class="portfolio-layer">
+        <h4>Helmet Detection System</h4>
+        <p>Real-time deep learning model using Python, OpenCV & CNN with 90%+ accuracy.</p>
+        <a href="https://github.com/venkataharshene/helmet-detection" target="_blank"><i class="bx bx-link-external"></i></a>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="dictionary.jpg" alt="English Dictionary Web App">
+      <div class="portfolio-layer">
+        <h4>English Dictionary Web App</h4>
+        <p>Frontend app using HTML/CSS/JS and dictionary API. Includes audio pronunciation.</p>
+        <a href="https://github.com/venkataharshene/dictionary" target="_blank"><i class="bx bx-link-external"></i></a>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="heart.jpg" alt="Heart Disease Predictor">
+      <div class="portfolio-layer">
+        <h4>Heart Disease Predictor</h4>
+        <p>Keras-based ML model using health data. Predicts conditions with over 85% accuracy.</p>
+        <a href="https://github.com/venkataharshene/heart-disease-prediction" target="_blank"><i class="bx bx-link-external"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="mailto:varunmg2102@gmail.com" method="post" enctype="text/plain">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>&copy; 2025 by Konduru Venkata HArshene | All Rights Reserved|</p>
+      </div>
+
+      <div class="footer-iconTap">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+  </body>
+</html>
